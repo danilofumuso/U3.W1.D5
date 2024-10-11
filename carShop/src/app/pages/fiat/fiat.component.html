@@ -21,6 +21,7 @@
             Prezzo:
             {{ car.price | currency : "EUR" }}
           </p>
+          <p class="card-text" *ngIf="!car.available">Non disponibile</p>
           <a routerLink="/" class="btn btn-dark w-25 rounded-pill">Home</a>
         </div>
       </div>

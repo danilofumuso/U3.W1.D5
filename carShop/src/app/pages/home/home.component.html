@@ -31,6 +31,7 @@
             Prezzo:
             {{ car.price | currency : "EUR" }}
           </p>
+          <p class="card-text" *ngIf="!car.available">Non disponibile</p>
           <a
             routerLink="/{{ car.brand.toLocaleLowerCase() }}"
             class="btn btn-dark w-50 rounded-pill"
