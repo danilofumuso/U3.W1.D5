@@ -1,0 +1,83 @@
+[
+  {
+    "brand": "Fiat",
+    "brandLogo": "fiat.png",
+    "model": "500L",
+    "modelImage": "fiat500L.png",
+    "year": 2015,
+    "price": 7500,
+    "available": false
+  },
+  {
+    "brand": "Fiat",
+    "brandLogo": "fiat.png",
+    "model": "500 Abarth",
+    "modelImage": "fiat500Abarth.png",
+    "year": 2010,
+    "price": 23500,
+    "available": true
+  },
+  {
+    "brand": "Ford",
+    "brandLogo": "ford.png",
+    "model": "Taurus",
+    "modelImage": "fordTaurus.png",
+    "year": 2009,
+    "price": 15200,
+    "available": false
+  },
+  {
+    "brand": "Ford",
+    "brandLogo": "ford.png",
+    "model": "Focus",
+    "modelImage": "fordFocus.png",
+    "year": 2014,
+    "price": 9700,
+    "available": true
+  },
+  {
+    "brand": "Audi",
+    "brandLogo": "audi.png",
+    "model": "A3",
+    "modelImage": "audiA3.png",
+    "year": 2012,
+    "price": 41300,
+    "available": true
+  },
+  {
+    "brand": "Audi",
+    "brandLogo": "audi.png",
+    "model": "Q7",
+    "modelImage": "audiQ7.png",
+    "year": 2020,
+    "price": 41700,
+    "available": false
+  },
+  {
+    "brand": "Fiat",
+    "brandLogo": "fiat.png",
+    "model": "124 Spider",
+    "modelImage": "fiat124Spider.png",
+    "year": 2019,
+    "price": 27500,
+    "available": true
+  },
+  {
+    "brand": "Audi",
+    "brandLogo": "audi.png",
+    "model": "R8",
+    "modelImage": "audiR8.png",
+    "year": 2020,
+    "price": 127500,
+    "available": true
+  },
+  {
+    "brand": "Ford",
+    "brandLogo": "ford.png",
+    "model": "Kuga",
+    "modelImage": "fordKuga.png",
+    "year": 2019,
+    "price": 37500,
+    "available": false
+  }
+]

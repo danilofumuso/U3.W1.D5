@@ -1,0 +1,29 @@
+<div class="container mb-5">
+  <div class="row g-3 justify-content-lg-center">
+    <div class="d-flex flex-column align-items-center justify-content-center">
+      <h3 class="text-center mt-5 display-3">{{ cars[0].brand }}</h3>
+      <img src="./brandLogos/{{ cars[0].brandLogo }}" alt="car brand" />
+    </div>
+    <div class="col-12 col-sm-6 col-lg-3" *ngFor="let car of cars">
+      <div
+        class="card h-100 rounded-start-5 rounded-end-pill"
+        [ngClass]="car.available ? 'bg-success' : 'bg-danger'"
+      >
+        <img
+          class="card-img-top"
+          src="/carImages/{{ car.modelImage }}"
+          alt=""
+        />
+        <div class="card-body d-flex flex-column justify-content-around">
+          <h5 class="card-title">{{ car.brand }} {{ car.model }}</h5>
+          <p class="card-text">Anno: {{ car.year }}</p>
+          <p class="card-text">
+            Prezzo:
+            {{ car.price | currency : "EUR" }}
+          </p>
+          <a routerLink="/" class="btn btn-dark w-25 rounded-pill">Home</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
